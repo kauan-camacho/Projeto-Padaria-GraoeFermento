@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cardápio Completo | Grão &amp; Fermento — Padaria Artesanal</title>
+<meta name="description" content="Pães, folhados, doces, bolos e cafés especiais da Grão & Fermento. Monte seu pedido no site e finalize pelo WhatsApp. Entrega na zona oeste de São Paulo.">
+<meta name="theme-color" content="#2c1a0f">
+<link rel="canonical" href="https://graofermento.com.br/cardapio.html">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Cardápio Completo | Grão &amp; Fermento">
+<meta property="og:description" content="Pães, folhados, doces, bolos e cafés especiais. Assados hoje, para comer hoje.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=1200&q=70">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23b96c22'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='58' font-family='Georgia,serif' fill='white'%3EG%26F%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Pular para o conteúdo principal</a>
+
+<!-- ══════════════════════ HEADER ══════════════════════ -->
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22V9"/><path d="M12 9c0-3 2-5 5-5 0 3-2 5-5 5Z"/>
+          <path d="M12 9C12 6 10 4 7 4c0 3 2 5 5 5Z"/>
+          <path d="M12 15c0-2.5 1.8-4.2 4.4-4.2 0 2.5-1.8 4.2-4.4 4.2Z"/>
+          <path d="M12 15c0-2.5-1.8-4.2-4.4-4.2C7.6 13.3 9.4 15 12 15Z"/>
+        </svg>
+      </span>
+      <span class="brand__text">
+        <span class="brand__name">Grão &amp; Fermento</span>
+        <span class="brand__tag">Padaria artesanal</span>
+      </span>
+    </a>
+
+        <nav class="nav" aria-label="Navegação principal">
+      <a class="nav__link" href="index.html">Início</a>
+      <a class="nav__link is-active" href="cardapio.html" aria-current="page">Cardápio</a>
+      <a class="nav__link" href="contato.html">Contato</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn cart-btn" data-open-cart type="button" aria-label="Abrir meu pedido">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <span class="cart-count" data-cart-count aria-hidden="true"></span>
+      </button>
+      <a class="btn btn--primary btn--sm" href="#planos">Assinar pão</a>
+      <button class="icon-btn burger" data-open-drawer="nav-drawer" type="button"
+              aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="nav-drawer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="overlay" aria-hidden="true"></div>
+
+<!-- ══════════════════════ MOBILE NAV ══════════════════════ -->
+<nav class="drawer drawer--left" id="nav-drawer" aria-hidden="true" aria-label="Menu móvel">
+  <div class="drawer__head">
+    <span class="drawer__title">
+      <span class="brand__mark" style="width:34px;height:34px;border-radius:9px" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22V9"/><path d="M12 9c0-3 2-5 5-5 0 3-2 5-5 5Z"/><path d="M12 9C12 6 10 4 7 4c0 3 2 5 5 5Z"/>
+        </svg>
+      </span>
+      Navegue
+    </span>
+    <button class="icon-btn" data-close-drawer type="button" aria-label="Fechar menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="drawer__body">
+        <ul class="mnav">
+      <li><a class="mnav__link" href="index.html">Início <span class="idx">01</span></a></li>
+      <li><a class="mnav__link is-active" href="cardapio.html" aria-current="page">Cardápio <span class="idx">02</span></a></li>
+      <li><a class="mnav__link" href="contato.html">Contato <span class="idx">03</span></a></li>
+    </ul>
+    <div class="mnav__foot">
+      <strong style="color:var(--ink)">Peça pelo WhatsApp</strong><br>
+      Encomendas até 18h para retirada no mesmo dia.
+      <div class="mt-4"><a class="btn btn--primary btn--sm btn--block" href="https://wa.me/5511987654321" target="_blank" rel="noopener">Chamar no WhatsApp</a></div>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════════════ CART DRAWER ══════════════════════ -->
+<aside class="drawer" id="cart-drawer" aria-hidden="true" aria-label="Meu pedido">
+  <div class="drawer__head">
+    <span class="drawer__title">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px;color:var(--amber-ink)" aria-hidden="true">
+        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
+      </svg>
+      Meu pedido
+    </span>
+    <button class="icon-btn" data-close-drawer type="button" aria-label="Fechar pedido">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="drawer__body">
+    <div class="cart-empty" data-cart-empty>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
+      </svg>
+      <h3 class="mb-4" style="font-size:var(--fs-md)">Seu pedido está vazio</h3>
+      <p style="font-size:var(--fs-sm)">Escolha seus favoritos no cardápio. Eles ficam salvos no seu navegador.</p>
+    </div>
+    <div data-cart-list class="is-hidden"></div>
+  </div>
+  <div class="drawer__foot is-hidden" data-cart-foot>
+    <div class="cart-total"><span>Total</span><span data-cart-total>R$ 0,00</span></div>
+    <a class="btn btn--primary btn--block" data-cart-checkout href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.9 8.9 0 0 1-3.8-.9L3 21l2-4.9A8.4 8.4 0 0 1 12 3.1a8.4 8.4 0 0 1 9 8.4Z"/>
+      </svg>
+      Finalizar pelo WhatsApp
+    </a>
+    <p class="cart-note">Retirada na loja ou entrega. Confirmamos o horário com você.</p>
+    <button class="btn btn--ghost btn--sm btn--block mt-3" data-cart-clear type="button">Esvaziar pedido</button>
+  </div>
+</aside>
+
+<main id="main">
+
+  <!-- ══════════════════════ PAGE HERO ══════════════════════ -->
+  <section class="page-hero">
+    <div class="container page-hero__inner">
+      <nav class="crumbs" aria-label="Você está em">
+        <a href="index.html">Início</a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+        <span class="current">Cardápio</span>
+      </nav>
+      <h1>Cardápio da <span class="script">fornada</span> de hoje</h1>
+      <p>Tudo que está na vitrine foi assado entre 5h e 7h da manhã. Adicione ao pedido e finalize pelo WhatsApp — confirmamos a retirada na hora.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ EDITORIAL BAND ══════════════════════ -->
+  <section class="band band--short" aria-labelledby="band-fornada">
+    <img class="band__img" src="https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?auto=format&amp;fit=crop&amp;w=2000&amp;q=80"
+         alt="Bandeja de doces recém-assados saindo do forno" width="4896" height="3264" loading="lazy" decoding="async">
+    <div class="band__body">
+      <span class="band__eyebrow">A vitrine de hoje</span>
+      <h2 class="band__title" id="band-fornada">O que não estiver aqui, ainda não saiu do forno.</h2>
+      <p class="band__text">Atualizamos o cardápio toda manhã. Se faltar alguma coisa, provavelmente é porque foi embora antes das 10h.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ MENU ══════════════════════ -->
+  <section class="section">
+    <div class="container">
+
+      <h2 class="visually-hidden">Produtos do cardápio</h2>
+
+      <!-- Toolbar: filters + search -->
+      <div class="toolbar">
+        <div class="filters" role="group" aria-label="Filtrar por categoria">
+          <button class="filter-btn is-active" data-filter="all" type="button" aria-pressed="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M6 12h12M10 18h4"/></svg>
+            Todos
+          </button>
+          <button class="filter-btn" data-filter="paes" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22V9M12 9c0-3 2-5 5-5 0 3-2 5-5 5ZM12 9C12 6 10 4 7 4c0 3 2 5 5 5Z"/></svg>
+            Pães
+          </button>
+          <button class="filter-btn" data-filter="folhados" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 5.6a5.5 5.5 0 0 0-7.8 0L12 6.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 22l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
+            Folhados
+          </button>
+          <button class="filter-btn" data-filter="doces" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 12.5 22 8.5 8.5 0 0 1 4 13.5 8.5 8.5 0 0 1 11.5 5 8.5 8.5 0 0 1 20 14.5Z"/><path d="M12 8v8M8.5 11.5h7"/></svg>
+            Doces &amp; Bolos
+          </button>
+          <button class="filter-btn" data-filter="cafes" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><path d="M6 2v3M10 2v3M14 2v3"/></svg>
+            Cafés
+          </button>
+          <button class="filter-btn" data-filter="sazonais" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.1 4.3 4.7.7-3.4 3.3.8 4.7L12 13.8 7.8 16l.8-4.7L5.2 8l4.7-.7Z"/></svg>
+            Sazonais
+          </button>
+        </div>
+
+        <div class="search">
+          <label class="visually-hidden" for="menu-search">Buscar no cardápio</label>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input class="input" type="search" id="menu-search" placeholder="Buscar pão, bolo, café…" data-search autocomplete="off">
+          <button class="search__clear" data-search-clear type="button" aria-label="Limpar busca">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" style="width:13px;height:13px" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <p class="result-count" data-result-count role="status">26 produtos encontrados</p>
+
+      <!-- Product grid -->
+      <div class="grid grid-3" data-menu-grid>
+
+        <!-- ─────────── PÃES ─────────── -->
+        <article class="card" data-cat="paes" data-name="Pão Fermentação Natural">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=70" alt="Pão de fermentação natural" loading="lazy" width="600" height="450" data-fallback="🥖">
+            <div class="card__tags"><span class="badge badge--new">Mais vendido</span></div>
+          </div>
+          <div class="card__body">
+            <div class="flex-between" style="gap:.5rem">
+              <h3 class="card__title">Pão Fermentação Natural</h3>
+              <span class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 4,9</span>
+            </div>
+            <p class="card__desc">Massa mãe de 24h, farinha de moagem própria, casca estalada e miolo alveolado.</p>
+            <div class="card__foot">
+              <span class="price">R$ 28<small>/kg</small></span>
+              <button class="add-btn" type="button" data-add="pao-fermentacao" data-name="Pão Fermentação Natural" data-price="2800" data-emoji="🥖"
+                data-img="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="paes" data-name="Pão de Sourdough Integral">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=600&q=70" alt="Pão de sourdough integral fatiado" loading="lazy" width="600" height="450" data-fallback="🍞">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Sourdough Integral</h3>
+            <p class="card__desc">Farinha integral, sementes de girassol e gergelim. 90% de hydratation, 30h de fermentação.</p>
+            <div class="card__foot">
+              <span class="price">R$ 32<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="sourdough-integral" data-name="Sourdough Integral" data-price="3200" data-emoji="🍞"
+                data-img="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="paes" data-name="Pão de Queijo Mineiro">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=70" alt="Pães de queijo mineiros" loading="lazy" width="600" height="450" data-fallback="🧀">
+            <div class="card__tags"><span class="badge badge--hot">Esgotando</span></div>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Pão de Queijo Mineiro</h3>
+            <p class="card__desc">Queijo canastra curado, 8 unidades por bandeja. Vai do congelador para o forno em 15 minutos.</p>
+            <div class="card__foot">
+              <span class="price">R$ 24<small>/bandeja</small></span>
+              <button class="add-btn" type="button" data-add="pao-de-queijo" data-name="Pão de Queijo Mineiro" data-price="2400" data-emoji="🧀"
+                data-img="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="paes" data-name="Pão de Centeio com Nozes">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=70" alt="Pão de centeio com nozes" loading="lazy" width="600" height="450" data-fallback="🌾">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Centeio com Nozes</h3>
+            <p class="card__desc">Pão escuro de sabor intenso, com nozes tostadas na hora. Perfeito com queijo azul.</p>
+            <div class="card__foot">
+              <span class="price">R$ 26<small>/kg</small></span>
+              <button class="add-btn" type="button" data-add="centeio-nozes" data-name="Pão de Centeio com Nozes" data-price="2600" data-emoji="🌾"
+                data-img="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="paes" data-name="Baguete Vernier">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=70" alt="Baguetes de casca crocante" loading="lazy" width="600" height="450" data-fallback="🥖">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Baguete Vernier</h3>
+            <p class="card__desc">Casca fina e estalada, miolo úmido. A clássica do café da manhã alemão, assada 4 vezes ao dia.</p>
+            <div class="card__foot">
+              <span class="price">R$ 14<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="baguete" data-name="Baguete Vernier" data-price="1400" data-emoji="🥖"
+                data-img="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="paes" data-name="Pão de Milho Verde">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=600&q=70" alt="Pão de milho verde caseiro" loading="lazy" width="600" height="450" data-fallback="🌽">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Milho Verde</h3>
+            <p class="card__desc">Milho verde desfiado na hora, cebola caramelizada e massa que derrete na boca. Vem com 4 unidades.</p>
+            <div class="card__foot">
+              <span class="price">R$ 18<small>/pct</small></span>
+              <button class="add-btn" type="button" data-add="milho-verde" data-name="Pão de Milho Verde" data-price="1800" data-emoji="🌽"
+                data-img="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- ─────────── FOLHADOS ─────────── -->
+        <article class="card" data-cat="folhados" data-name="Croissant de Manteiga">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1534432182912-63863115e106?auto=format&fit=crop&w=600&q=70" alt="Croissant de manteiga" loading="lazy" width="600" height="450" data-fallback="🥐">
+            <div class="card__tags"><span class="badge badge--new">Mais vendido</span></div>
+          </div>
+          <div class="card__body">
+            <div class="flex-between" style="gap:.5rem">
+              <h3 class="card__title">Croissant de Manteiga</h3>
+              <span class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 5,0</span>
+            </div>
+            <p class="card__desc">27 camadas, manteiga francesa 83% de gordura e dois dias de fermentação em câmara fria.</p>
+            <div class="card__foot">
+              <span class="price">R$ 16<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="croissant" data-name="Croissant de Manteiga" data-price="1600" data-emoji="🥐"
+                data-img="https://images.unsplash.com/photo-1534432182912-63863115e106?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="folhados" data-name="Croissant de Chocolate">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=600&q=70" alt="Croissants de chocolate" loading="lazy" width="600" height="450" data-fallback="🥐">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Croissant de Chocolate</h3>
+            <p class="card__desc">Barra de chocolate meio amargo 55% derretida e moldada dentro do folhado. Ainda morno às 8h.</p>
+            <div class="card__foot">
+              <span class="price">R$ 18<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="croissant-chocolate" data-name="Croissant de Chocolate" data-price="1800" data-emoji="🥐"
+                data-img="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="folhados" data-name="Pain Suisse">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=70" alt="Pães suíces recheados" loading="lazy" width="600" height="450" data-fallback="🥮">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Pain Suisse</h3>
+            <p class="card__desc">Folhado ronde com creme pâtissier e amêndoas torradas. O favorito do café da tarde.</p>
+            <div class="card__foot">
+              <span class="price">R$ 20<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="pain-suisse" data-name="Pain Suisse" data-price="2000" data-emoji="🥮"
+                data-img="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="folhados" data-name="Torta de Maçã">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=600&q=70" alt="Torta de maçã caseira" loading="lazy" width="600" height="450" data-fallback="🥧">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Torta de Maçã</h3>
+            <p class="card__desc">Maçãs caramelizadas na manteiga,, massa folhada quebradiça e canela.</p>
+            <div class="card__foot">
+              <span class="price">R$ 68<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="torta-maca" data-name="Torta de Maçã" data-price="6800" data-emoji="🥧"
+                data-img="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="folhados" data-name="Volta à Portuguesa">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=70" alt="Pastéis folhados assorted" loading="lazy" width="600" height="450" data-fallback="🥐">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Volta à Portuguesa</h3>
+            <p class="card__desc">Sortido com 4 unidades:.Interfaces de carne, frango com catupiry, palmito e queijo.</p>
+            <div class="card__foot">
+              <span class="price">R$ 36<small>/caixa</small></span>
+              <button class="add-btn" type="button" data-add="volta-portuguesa" data-name="Volta à Portuguesa" data-price="3600" data-emoji="🥐"
+                data-img="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="folhados" data-name="Ninnamon Roll">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=70" alt="Cinnamon rolls com cobertura" loading="lazy" width="600" height="450" data-fallback="🌀">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Cinnamon Roll</h3>
+            <p class="card__desc">Massa brioche enrolada com canela e cobertura de cream cheese. Melhor vendido no inverno.</p>
+            <div class="card__foot">
+              <span class="price">R$ 17<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="cinnamon-roll" data-name="Cinnamon Roll" data-price="1700" data-emoji="🌀"
+                data-img="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- ─────────── DOCES & BOLOS ─────────── -->
+        <article class="card" data-cat="doces" data-name="Bolo de Fubá Cremoso">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=70" alt="Bolo de fubá decorado" loading="lazy" width="600" height="450" data-fallback="🍰">
+            <div class="card__tags"><span class="badge badge--new">Receita da vovó</span></div>
+          </div>
+          <div class="card__body">
+            <div class="flex-between" style="gap:.5rem">
+              <h3 class="card__title">Bolo de Fubá Cremoso</h3>
+              <span class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 4,8</span>
+            </div>
+            <p class="card__desc">Fubá mimoso, erva-doce e uma generosa camada de goiabada derretida. Serve 12 fatias.</p>
+            <div class="card__foot">
+              <span class="price">R$ 42<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="bolo-fuba" data-name="Bolo de Fubá Cremoso" data-price="4200" data-emoji="🍰"
+                data-img="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doces" data-name="Brownie de Nozes">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=70" alt="Brownie com nozes" loading="lazy" width="600" height="450" data-fallback="🍫">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Brownie de Nozes</h3>
+            <p class="card__desc">Chocolate 70%, nozes crocantes e interior úmido. Vai bem gelado, com sorvete de creme.</p>
+            <div class="card__foot">
+              <span class="price">R$ 18<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="brownie" data-name="Brownie de Nozes" data-price="1800" data-emoji="🍫"
+                data-img="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doces" data-name="Bolo de Cenoura com Chocolate">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=600&q=70" alt="Bolo de cenoura com cobertura de chocolate" loading="lazy" width="600" height="450" data-fallback="🍰">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Cenoura com Chocolate</h3>
+            <p class="card__desc">Massa fofinha de cenoura com laranja e cobertura generosa de brigadeiro de chocolate 54%.</p>
+            <div class="card__foot">
+              <span class="price">R$ 38<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="bolo-cenoura" data-name="Bolo de Cenoura com Chocolate" data-price="3800" data-emoji="🍰"
+                data-img="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doces" data-name="Brigadeiro Gourmet">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?auto=format&fit=crop&w=600&q=70" alt="Brigadeiros gourmet com granulado" loading="lazy" width="600" height="450" data-fallback="🍬">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Brigadeiro Gourmet</h3>
+            <p class="card__desc">Chocolate belga 54%, enrolados na hora e cobertos com granulado premium. Caixa com 6.</p>
+            <div class="card__foot">
+              <span class="price">R$ 22<small>/caixa</small></span>
+              <button class="add-btn" type="button" data-add="brigadeiro" data-name="Brigadeiro Gourmet" data-price="2200" data-emoji="🍬"
+                data-img="https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doces" data-name="Cookie de Chocolate Branco">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=70" alt="Cookies com pedaços de chocolate" loading="lazy" width="600" height="450" data-fallback="🍪">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Cookie de Chocolate Branco</h3>
+            <p class="card__desc">Casca crocante por fora, macio por dentro, com pedaços de chocolate branco e flor de sal.</p>
+            <div class="card__foot">
+              <span class="price">R$ 12<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="cookie" data-name="Cookie de Chocolate Branco" data-price="1200" data-emoji="🍪"
+                data-img="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doces" data-name="Torta Holandesa">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=70" alt="Torta holandesa com frutas vermelhas" loading="lazy" width="600" height="450" data-fallback="🍓">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Torta Holandesa</h3>
+            <p class="card__desc">Base crocante de amêndoas, creme de baunilha de Madagascar e frutas vermelhas frescas.</p>
+            <div class="card__foot">
+              <span class="price">R$ 78<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="torta-holandesa" data-name="Torta Holandesa" data-price="7800" data-emoji="🍓"
+                data-img="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- ─────────── CAFÉS ─────────── -->
+        <article class="card" data-cat="cafes" data-name="Cappuccino Artesanal">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=70" alt="Cappuccino com arte na espuma" loading="lazy" width="600" height="450" data-fallback="☕">
+          </div>
+          <div class="card__body">
+            <div class="flex-between" style="gap:.5rem">
+              <h3 class="card__title">Cappuccino Artesanal</h3>
+              <span class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 4,9</span>
+            </div>
+            <p class="card__desc">Espresso duplo, leite texturizado e desenho na espuma. Escolha o desenho que preferir.</p>
+            <div class="card__foot">
+              <span class="price">R$ 16<small>/cup</small></span>
+              <button class="add-btn" type="button" data-add="cappuccino" data-name="Cappuccino Artesanal" data-price="1600" data-emoji="☕"
+                data-img="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="cafes" data-name="Espresso Duplo">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=600&q=70" alt="Espresso duplo em xícara de porcelana" loading="lazy" width="600" height="450" data-fallback="☕">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Espresso Duplo</h3>
+            <p class="card__desc">Blend da casa com notas de chocolate e caramelo, torra média. Cremoso e sem acidez.</p>
+            <div class="card__foot">
+              <span class="price">R$ 9<small>/cup</small></span>
+              <button class="add-btn" type="button" data-add="espresso" data-name="Espresso Duplo" data-price="900" data-emoji="☕"
+                data-img="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="cafes" data-name="Latte de Baunilha">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=70" alt="Latte gelado com baunilha" loading="lazy" width="600" height="450" data-fallback="🍨">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Latte de Baunilha</h3>
+            <p class="card__desc">Espresso, leite gelado e xarope de baunilha de Madagascar. Servir gelado, sempre.</p>
+            <div class="card__foot">
+              <span class="price">R$ 18<small>/cup</small></span>
+              <button class="add-btn" type="button" data-add="latte-baunilha" data-name="Latte de Baunilha" data-price="1800" data-emoji="🍨"
+                data-img="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="cafes" data-name="Café com Pão de Queijo">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&w=600&q=70" alt="Café com pão de queijo e croissants" loading="lazy" width="600" height="450" data-fallback="☕">
+            <div class="card__tags"><span class="badge">Combo</span></div>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Café + 3 Pães de Queijo</h3>
+            <p class="card__desc">O clássico mineiro: espresso duplo, 3 pães de queijo recém-saídos do forno e um doce de leite artesanal.</p>
+            <div class="card__foot">
+              <span class="price">R$ 34<small>/combo</small></span>
+              <button class="add-btn" type="button" data-add="combo-cafe" data-name="Café + 3 Pães de Queijo" data-price="3400" data-emoji="☕"
+                data-img="https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- ─────────── SAZONAIS ─────────── -->
+        <article class="card" data-cat="sazonais" data-name="Bolo de Laranja com Brigadeiro">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=70" alt="Bolo de laranja da estação" loading="lazy" width="600" height="450" data-fallback="🍊">
+            <div class="card__tags"><span class="badge badge--new">Sazonal</span></div>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Laranja com Brigadeiro</h3>
+            <p class="card__desc">Disponível só na estação da fruta. Massa com raspas de laranja e cobertura de brigadeiro meio amargo.</p>
+            <div class="card__foot">
+              <span class="price">R$ 44<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="bolo-laranja" data-name="Bolo de Laranja com Brigadeiro" data-price="4400" data-emoji="🍊"
+                data-img="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="sazonais" data-name="Doce de Leite Argentino">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1587241321921-91a834d6d191?auto=format&fit=crop&w=600&q=70" alt="Doce de leite argentino em pote" loading="lazy" width="600" height="450" data-fallback="🍮">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Doce de Leite Argentino</h3>
+            <p class="card__desc">Leite cozido por 4 horas em panela de cobre, sem conservantes. Pote de 250g para levar.</p>
+            <div class="card__foot">
+              <span class="price">R$ 26<small>/pote</small></span>
+              <button class="add-btn" type="button" data-add="doce-leite" data-name="Doce de Leite Argentino" data-price="2600" data-emoji="🍮"
+                data-img="https://images.unsplash.com/photo-1587241321921-91a834d6d191?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="sazonais" data-name="Pão de Queijo com Erva Doce">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=600&q=70" alt="Pães de queijo decorados com erva doce" loading="lazy" width="600" height="450" data-fallback="🌿">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Queijo com Erva-Doce</h3>
+            <p class="card__desc">Receita inspirada na Serra da Mantiqueira, com erva-doce fresca colhida pela família. 8 unidades.</p>
+            <div class="card__foot">
+              <span class="price">R$ 26<small>/bandeja</small></span>
+              <button class="add-btn" type="button" data-add="queijo-erva" data-name="Pão de Queijo com Erva-Doce" data-price="2600" data-emoji="🌿"
+                data-img="https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="sazonais" data-name="Bolo de Centeio com Ameixas">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=600&q=70" alt="Bolo de centeio com ameixas" loading="lazy" width="600" height="450" data-fallback="🌾">
+            <div class="card__tags"><span class="badge">Sazonal</span></div>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Centeio com Ameixas</h3>
+            <p class="card__desc">Receita antiga da cozinha polonesa, com ameixas em compota e casca de laranja.</p>
+            <div class="card__foot">
+              <span class="price">R$ 46<small>/un</small></span>
+              <button class="add-btn" type="button" data-add="centeio-ameixas" data-name="Bolo de Centeio com Ameixas" data-price="4600" data-emoji="🌾"
+                data-img="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=120&q=60">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span data-add-label>Adicionar</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- No results state -->
+        <div class="no-results is-hidden" data-no-results>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M8.5 11h5"/>
+          </svg>
+          <h3>Nada encontrado por aqui</h3>
+          <p>Tente outro termo ou volte para ver tudo o que saiu do forno hoje.</p>
+          <button class="btn btn--ghost btn--sm" data-search-clear type="button">Limpar filtros</button>
+        </div>
+
+      </div>
+
+      <p class="text-muted mt-6" style="font-size:var(--fs-sm)">
+        ⚠️ Alérgenos: informamos allergens mediante solicitação. Pães contêm glúten.
+        Linha sem glúten e vegana disponível — <a href="contato.html#encomendas">fale com a gente</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ SUBSCRIPTION PLANS ══════════════════════ -->
+  <section class="section section--alt" id="planos">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <span class="eyebrow eyebrow--center">Assinatura de pão</span>
+        <h2>Seu pão fresquinho, todo dia, sem pensar</h2>
+        <p class="lead mx-auto">Escolha um plano, um dia da semana e um horário fixo. A gente leva quente na sua porta ou deixa pronto na loja. Pause ou cancele quando quiser.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="plan reveal">
+          <h3>Colação</h3>
+          <div class="plan__price">R$ 89<small>/mês</small></div>
+          <p class="plan__desc">Para quem mora sozinho. 5 pães por semana, um tipo à sua escolha.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> 5 pães por semana</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Entrega em dia fixo às 8h</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Frete grátis incluso</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Padeiro no WhatsApp</li>
+          </ul>
+          <a class="btn btn--ghost btn--block" href="https://wa.me/5511987654321?text=Ol%C3%A1!%20Quero%20assinar%20o%20plano%20Cola%C3%A7%C3%A3o." target="_blank" rel="noopener">Assinar Colação</a>
+        </div>
+
+        <div class="plan plan--featured reveal">
+          <span class="plan__tag">Mais escolhido</span>
+          <h3>Casa Cheia</h3>
+          <div class="plan__price">R$ 149<small>/mês</small></div>
+          <p class="plan__desc">O favorito das famílias. 10 pães por semana, dois tipos à sua escolha.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> 10 pães por semana</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> 2 tipos de pão à escolha</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Entrega em 2 dias fixos</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> 1 kg de farinha por mês</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> 10% de desconto em doces</li>
+          </ul>
+          <a class="btn btn--primary btn--block" href="https://wa.me/5511987654321?text=Ol%C3%A1!%20Quero%20assinar%20o%20plano%20Casa%20Cheia." target="_blank" rel="noopener">Assinar Casa Cheia</a>
+        </div>
+
+        <div class="plan reveal">
+          <h3>Escritório</h3>
+          <div class="plan__price">R$ 349<small>/mês</small></div>
+          <p class="plan__desc">Para equipos e reuniões. 20 pães por semana com entrega em 3 dias.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> 20 pães por semana</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> 3 tipos à sua escolha</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Entrega em 3 dias fixos</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Nota fiscal para o CNPJ</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Prioridade na fornada</li>
+          </ul>
+          <a class="btn btn--ghost btn--block" href="https://wa.me/5511987654321?text=Ol%C3%A1!%20Quero%20assinar%20o%20plano%20Escrit%C3%B3rio." target="_blank" rel="noopener">Assinar Escritório</a>
+        </div>
+      </div>
+
+      <p class="text-center text-muted mt-6" style="font-size:var(--fs-sm)">
+        Todos os planos incluem 5% de desconto no Pix e podem ser pausados ou cancelados sem multa.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ NEWSLETTER ══════════════════════ -->
+  <section class="section" style="padding-top:0">
+    <div class="container container--narrow text-center">
+      <span class="eyebrow eyebrow--center">Fique por dentro</span>
+      <h2 style="font-size:var(--fs-2xl)">Receba o cardápio da semana no seu e-mail</h2>
+      <p class="lead mx-auto mt-4">Sazonais, pré-vendas e cupons. Um e-mail por semana, sem spam. <strong style="color:var(--amber-ink)">Ganhe 10% de desconto</strong> na primeira compra.</p>
+
+      <form data-form="newsletter" novalidate>
+        <!-- honeypot -->
+        <div class="visually-hidden" aria-hidden="true">
+          <label for="nl-site">Não preencha este campo</label>
+          <input type="text" id="nl-site" name="website" tabindex="-1" autocomplete="off">
+        </div>
+
+        <!-- flex row lives inside the form so [data-form-msg] can sit below it -->
+        <div class="newsletter">
+          <label class="visually-hidden" for="nl-email">Seu melhor e-mail</label>
+          <div class="field">
+            <input class="input" type="email" id="nl-email" name="email" placeholder="seu@email.com.br" data-rules="required email" autocomplete="email" aria-describedby="nl-error">
+            <span class="field__error" id="nl-error" role="alert"></span>
+          </div>
+          <button class="btn btn--primary" type="submit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 4 16 8-16 8 4-8Z"/><path d="M8 12h12"/></svg>
+            Quero receber
+          </button>
+        </div>
+
+        <div class="form-msg" data-form-msg role="status"></div>
+      </form>
+
+      <p class="newsletter__note">Ao se cadastrar você concorda com a nossa <a href="#">Política de Privacidade</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ══════════════════════ FOOTER ══════════════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__col footer__brand">
+        <a class="brand" href="index.html">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22V9"/><path d="M12 9c0-3 2-5 5-5 0 3-2 5-5 5Z"/><path d="M12 9C12 6 10 4 7 4c0 3 2 5 5 5Z"/>
+            </svg>
+          </span>
+          <span class="brand__text">
+            <span class="brand__name">Grão &amp; Fermento</span>
+            <span class="brand__tag">Padaria artesanal</span>
+          </span>
+        </a>
+        <p>Fermentação natural, farinha de moagem própria e forno a lenha. Assamos todo dia desde 1998 e vendemos apenas o que sai quente da fornada.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram da Grão e Fermento"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook da Grão e Fermento"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9V7.5c0-.8.2-1.2 1.4-1.2H17V3h-2.6C11.4 3 10 4.4 10 7v2H8v3.3h2V21h4v-8.7h2.6l.4-3.3Z"/></svg></a>
+          <a href="https://wa.me/5511987654321" target="_blank" rel="noopener" aria-label="WhatsApp da Grão e Fermento"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0 1 12 4Zm-3.4 4.2c-.2 0-.5 0-.7.4-.3.4-.9 1-.9 2s1 2.3 1.1 2.4c.1.2 1.8 3 4.5 4 2.2.9 2.7.7 3.2.7.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.2.2-1.3l-.6-.3s-1.2-.6-1.4-.7c-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5l-.7-1.7c-.2-.4-.4-.4-.6-.4Z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="cardapio.html">Cardápio completo</a></li>
+          <li><a href="cardapio.html#planos">Assinatura de pão</a></li>
+          <li><a href="sobre.html">Nossa história</a></li>
+          <li><a href="contato.html">Contato e encomendas</a></li>
+          <li><a href="index.html#faq">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3>Produtos</h3>
+        <ul>
+          <li><a href="cardapio.html?cat=paes">Pães artesanais</a></li>
+          <li><a href="cardapio.html?cat=folhados">Folhados &amp; croissants</a></li>
+          <li><a href="cardapio.html?cat=doces">Doces &amp; bolos</a></li>
+          <li><a href="cardapio.html?cat=cafes">Cafés especiais</a></li>
+          <li><a href="cardapio.html?cat=sazonais">Sazonais do mês</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3>Onde estamos</h3>
+        <ul style="gap:.85rem">
+          <li>Rua das Flores, 245<br>Vila Madalena · São Paulo — SP</li>
+          <li><a href="https://wa.me/5511987654321" target="_blank" rel="noopener">(11) 98765-4321</a></li>
+          <li><a href="mailto:oi@graofermento.com.br">oi@graofermento.com.br</a></li>
+        </ul>
+        <div class="footer__hours mt-5">
+          <div><span>Seg — Qui</span><strong>7h — 19h</strong></div>
+          <div><span>Sexa — Sáb</span><strong>7h — 20h</strong></div>
+          <div><span>Domingo</span><strong>7h — 13h</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <span>© <span data-year>2026</span> Grão &amp; Fermento · Todos os direitos reservados.</span>
+      <div class="footer__legal">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+        <a href="contato.html#encomendas">Trabalhe conosco</a>
+      </div>
+      <div class="payments">
+        <span>Pix</span><span>Visa</span><span>Master</span><span>Elo</span><span>Débito</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<aside class="fab-stack" aria-label="Atalhos de contato">
+  <button class="fab fab--top" type="button" aria-label="Voltar ao topo da página">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+  </button>
+  <a class="fab fab--wa fab__pulse" data-wa-msg="Olá! Vim pelo cardápio da Grão &amp; Fermento e gostaria de fazer um pedido." href="https://wa.me/5511987654321" target="_blank" rel="noopener" aria-label="Falar com a padaria no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0 1 12 4Zm-3.4 4.2c-.2 0-.5 0-.7.4-.3.4-.9 1-.9 2s1 2.3 1.1 2.4c.1.2 1.8 3 4.5 4 2.2.9 2.7.7 3.2.7.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.2.2-1.3l-.6-.3s-1.2-.6-1.4-.7c-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5l-.7-1.7c-.2-.4-.4-.4-.6-.4Z"/></svg>
+  </a>
+</aside>
+  <div class="toast-stack" aria-live="polite" aria-atomic="true"></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
